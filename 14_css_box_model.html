@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: #f4f4f4;
+            border: 2px #777 solid;
+            width: 500px;
+            height: 200px;
+            padding: 20px;
+            /*将padding和border都算进去*/
+            box-sizing: border-box;
+        }
+        /*body{*/
+        /*    margin:0;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="box">
+<h3>box one</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, asperiores autem ea eaque exercitationem facere iste iure temporibus unde voluptas.</p>
+</div>
+<div class="box">
+    <h3>box tow</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, asperiores autem ea eaque exercitationem facere iste iure temporibus unde voluptas.</p>
+</div>
+</body>
+</html>

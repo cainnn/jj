@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动和文本对齐方式</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: arial,helvetical,sans-serif;
+            line-height: 1.4em;
+        }
+        .container{
+            width: 960px;
+            margin: auto;
+        }
+        .box{
+            background-color: #f4f4f4;
+            border:1px solid #333333;
+            padding: 20pxj;
+            margin-bottom: 15px;
+        }
+        .box p{
+            text-align: right;
+            /*text-align: center;*/
+            /*两端对齐*/
+            /*text-align: justify;*/
+        }
+        #box-2{
+            width: 68%;
+            float:left;
+        }
+        #box-3{
+            width:30%;
+            float:right;
+        }
+        .clear{
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div id="box-1" class="box">
+    <h3>Heading1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A earum fugiat incidunt labore nisi quas quia temporibus! Nihil, vel, voluptas.</p>
+</div>
+<div class="container"></div>
+<div id="box-2" class="box">
+    <h3>Heading2</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A earum fugiat incidunt labore nisi quas quia temporibus! Nihil, vel, voluptas.</p>
+</div>
+<div class="container"></div>
+<div id="box-3" class="box">
+    <h3>Heading3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A earum fugiat incidunt labore nisi quas quia temporibus! Nihil, vel, voluptas.</p>
+</div>
+    <div class="clear"></div>
+<div id="box-4" class="box">
+    <h3>Heading4</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A earum fugiat incidunt labore nisi quas quia temporibus! Nihil, vel, voluptas.</p>
+</div>
+</div>
+</body>
+</html>
