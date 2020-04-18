@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>LINK 和 BUTTON</title>
+    <style>
+        body{
+            font-font: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+        }
+        a{
+            color:#333333;
+            text-decoration: none;
+        }
+        a:hover{
+            color: coral;
+            font-size: 20px;
+        }
+        /*a:visited{*/
+        /*    color:red;*/
+        /*}*/
+        a:active{
+            color:red;
+        }
+        .btn{
+            background-color: #4c6ca0;
+            color:#ffffff;
+            border:none;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        .btn:hover{
+            color:red;
+            background-color: #446190;
+        }
+    </style>
 </head>
 <body>
-
+<a href="#" class="btn">My Link</a>
+<br>
+<br>
+<button class="btn">My Button</button>
 </body>
 </html>
